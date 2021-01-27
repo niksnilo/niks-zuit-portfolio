@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Niks Nilo Portfolio</title>
+  <meta property="og:title" content="Free Coding Class Niksfolio" />
+  <meta property="og:description" content="Free Coding Class Portfolio Zuitt PH."/>
+  <meta name="author" content="Niks Nilo">
+  <meta name="description" content="Free Coding Class Portfolio Zuitt PH.">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta property="og:image" content="https://i.imgur.com/tvyfJLJ.jpg" />
+    <link rel="icon" href="favicon.ico" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v9.0'
+      });
+    };
+
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your Chat Plugin code -->
+  <div class="fb-customerchat"
+    attribution=setup_tool
+    page_id="111216307313124"
+    theme_color="#0ccbce">
+  </div>
+
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navnav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Niksfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse navCollapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#container-home">Home</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#milestones">Milestones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <!--NAVBAR-->
+
+  <div class="bg-gradient">
+
+    <div class="container py-4" id="container-home">
+      <section id="home">
+          <div class="row mb-5">
+            <div class="col-12">
+              <div class="card py-md-5 px-md-5">
+                <!--NAVBAR-->
+                <div id="navnav2">
+                  <nav class="navbar navbar-expand-lg navbar-light navbar-default nav2">
+                    <a class="navbar-brand" href="#">Niksfolio</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav2"
+                      aria-controls="navbarNav2" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse navCollapse2" id="navbarNav2">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#container-home">Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#about">About</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#milestones">Milestones</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+                <!--NAVBAR-->
+
+                <div class="card-body">
+
+                  <div class="row">
+                    <!--HOME TEXT-->
+                    <div class="col-sm-12 col-md-6 col-lg-7 centered-vertical">
+                      <p class="greetings">Hello! I'm Niks Nilo</p>
+                      <h5>Full Stack Web Developer, and Graphic Designer</h5>
+            
+                      <div class="home-buttons mt-4 mb-4">
+                        <a class="btn-lg btn-get-started mr-3 text-center" href="#" data-toggle="modal" data-target="#modalContactForm">Get started</a>
+                        <!-- <a class="btn-lg btnGallery mt-3 text-center" href="#works" role="button"><i class="fas fa-briefcase mr-2"></i>Works</a> -->
+                      </div>
+                    </div>
+                    <!--HOME TEXT-->
+
+                    <!--IMAGE-->
+                    <div class="col-sm-12 col-md-6 col-lg-5 centered-vertical">
+                      <div class="home-img">
+                        <img src="img/Niks Vector.jpg" class="img-fluid niks-vertor" alt="Niks Image">
+                      </div>
+                    </div>
+                    <!--IMAGE-->
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section id="about">
+        <div class="row py-5 px-md-5">
+          <div class="col-sm-12 col-md-6 col-lg-5">
+            <img src="img/Niks.jpg" class="img-fluid about-niks-img mb-4 mt-3" alt="Niks Image">
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-7 centered-vertical">
+            <p class="title">About</p>
+            <p class="text-justify">Hello! I'm a Full Stack Web Developer (MERN Stack: MongoDB, Express, Reactjs, Nodejs), Web Designer,
+              and Graphic Designer. I enjoy creating simple and awesome interface designs.
+            </p>
+            <!-- <div class="social-icons">
+              <div class="icons"><a href=""><i class="fab fa-facebook"></i></a></div>
+              <a href=""><i class="fab fa-github"></i></a>
+              <a href=""><i class="fab fa-youtube"></i></a>
+            </div> -->
+            <div class="social-icons">
+                <div class="icons"><a href="https://www.facebook.com/iamtherealniks/" target="_blank"><i class="fab fa-facebook"></i></a></div>
+                <div class="icons"><a href="https://github.com/niksnilo" target="_blank"><i class="fab fa-github"></i></a></div>
+                <div class="icons"><a href="https://linkedin.com/in/niksnilo" target="_blank"><i class="fab fa-linkedin-in" target="_blank"></i></a></div>
+                <div class="icons"><a href="https://www.youtube.com/niksnilo" target="_blank"><i class="fab fa-youtube"></i></a></div>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row px-md-5">
+          <div class="col-12">
+            <p class="title work">Work Experience</p>
+          </div>
+          <!-- <div class="col-sm-12 col-md-4 col-lg-4"></div> -->
+        </div>
+
+        <div class="experience-list">
+          <div class="experience-list-item">
+            <div class="row py-md-5 px-md-5">
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="experience-item-date">
+                  <p>2019 - 2020</p>
+                </div>
+                <div class="experience-item-company">
+                  <p>Sunlink Technologies Inc. (“EPOS”) </p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="experience-item-title">
+                  <p>Jr. Web Developer</p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="experience-item-desc">
+                  <p>I specialize creating website, helpdesk ticket tracking, and designing social media ads.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1" d="M0,128L48,133.3C96,139,192,149,288,133.3C384,117,480,75,576,85.3C672,96,768,160,864,181.3C960,203,1056,181,1152,160C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+
+  </div>
+  
+  <div class="container" id="projects">
+    <section class="projects">
+      <div class="project-list">
+        <div class="project-list-item">
+          <div class="row px-md-5 py-5">
+            <div class="col-12">
+              <p class="title">Projects</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-list-title">
+          <div class="row px-md-5">
+
+            <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+              <div class="card px-md-3 py-md-3 h-100 w-100 card-hover-effect">
+                <div class="card-body">
+                  <i class="fas fa-key fa-5x mb-2"></i>
+                  <div class="project-item-title">
+                    <h3>The Secret App</h3>
+                    <p>January 2021</p>
+                  </div>
+                  <div class="project-item-desc">
+                    <p>This app is to share messages anonymously most likely to a person who is
+                      suffering from depression and anxiety. Somehow it helps them to release their stress.</p>
+                      <div class="home-buttons mt-4 mb-4">
+                        <a class="view-project text-center" href="https://the-secret-app.herokuapp.com/" target="_blank" role="button"></i>View Project</a>
+                        <!-- <a class="btn-lg btnGallery mt-3 text-center" href="#works" role="button"><i class="fas fa-briefcase mr-2"></i>Works</a> -->
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="col-sm-12 col-md-6 col-lg-6  mb-5">
+              <div class="card px-md-3 py-md-3 h-100 w-100 card-hover-effect">
+                <div class="card-body">
+                  <i class="fas fa-book-open fa-5x mb-2"></i>
+                  <div class="project-item-title">
+                    <h3>Daily Journal</h3>
+                    <p>January 2021</p>
+                  </div>
+                  <div class="project-item-desc">
+                    <p>This journal stores some details of your life ranging from memories, 
+                      ideas, feelings and your daily thoughts.</p>
+                      <div class="home-buttons mt-4 mb-4">
+                        <a class="view-project text-center" href="https://niks-blog-project.herokuapp.com/" target="_blank" role="button"></i>View Project</a>
+                        <!-- <a class="btn-lg btnGallery mt-3 text-center" href="#works" role="button"><i class="fas fa-briefcase mr-2"></i>Works</a> -->
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+              <div class="card px-md-3 py-md-3 h-100 w-100 card-hover-effect">
+                <div class="card-body">
+                  <i class="fas fa-list fa-5x mb-2"></i>
+                  <div class="project-item-title">
+                    <h3>Todo List</h3>
+                    <p>December 2020</p>
+                  </div>
+                  <div class="project-item-desc">
+                    <p>A List of task that you need to accomplish, or things that you want to do.</p>
+                      <div class="home-buttons mt-4 mb-4">
+                        <a class="view-project text-center" href="https://shielded-shore-50504.herokuapp.com/" target="_blank" role="button"></i>View Project</a>
+                        <!-- <a class="btn-lg btnGallery mt-3 text-center" href="#works" role="button"><i class="fas fa-briefcase mr-2"></i>Works</a> -->
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6  mb-5">
+              <div class="card px-md-3 py-md-3 h-100 w-100 card-hover-effect">
+                <div class="card-body">
+                  <i class="fas fa-envelope-open fa-5x mb-2"></i>
+                  <div class="project-item-title">
+                    <h4 class="project-title">Newsletter Sign Up</h4>
+                    <p>December 2020</p>
+                  </div>
+                  <div class="project-item-desc">
+                    <p>A simple newsletter form that visitors receive updates 
+                      from an online business through email.</p>
+                      <div class="home-buttons mt-4 mb-4">
+                        <a class="view-project text-center" href="https://niks-newsletter-signup.herokuapp.com/" target="_blank" role="button"></i>View Project</a>
+                        <!-- <a class="btn-lg btnGallery mt-3 text-center" href="#works" role="button"><i class="fas fa-briefcase mr-2"></i>Works</a> -->
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+  </div>    
+
+    <!-- <section id="gallery">
+      <div class="row">
+        <div class="col-sm-12 col-md-8 offset-md-2 col-lg-10 offset-lg-1 py-5">
+          
+          <div class="tools">
+              <h2>Languages I speak</h2>
+              <p>HTML</p>
+              <p>CSS</p>
+          </div>
+
+        </div>
+
+        <div class="col-sm-12 col-md-8 offset-md-2 col-lg-10 offset-lg-1">
+          
+          <div class="tools">
+              <h2>Tools I use</h2>
+              <p>GitBash/Terminal</p>
+              <p>Visual Studio Code</p>
+              <p>GitLab</p>
+          </div>
+
+        </div>
+
+        <div class="col-sm-12 col-md-8 offset-md-2 col-lg-10 offset-lg-1">
+          
+          <div class="card tools">
+            <div class="card-body">
+              <div class="tools">
+                <h2>Tools I Know</h2>
+                <ul>
+                  <li>GitBash/Terminal</li>
+                  <li>Visual Studio COde</li>
+                  <li>Google Chrome</li>
+                  <li>GitLab</li>
+                </ul>
+              </div>
+              </div>
+              </div>
+
+      </div>
+    </section> -->
+
+  <div class="bg-gradient">   
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1" d="M0,32L48,42.7C96,53,192,75,288,122.7C384,171,480,245,576,256C672,267,768,213,864,202.7C960,192,1056,224,1152,213.3C1248,203,1344,149,1392,122.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+    </svg>
+    <div class="container" id="milestones">
+      <section class="milestones">
+        <div class="milestone-list">
+          <div class="milestone-list-item">
+            <div class="row px-md-5 py-5">
+              <div class="col-12">
+                <p class="title">Milestones</p>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+                <div class="card px-md-3 py-md-3 h-100 w-100 card-hover-effect">
+                  <div class="card-body">
+                    <div class="milestone-list-title">
+                      <i class="fas fa-code fa-6x mb-2"></i>
+                      <h4 class="award-title">Web Development Bootcamp</h4>
+                      <p>November 2020</p>
+                      <div class="milestone-list-desc">
+                        <p>50+ learning hours and several completed projects. This bootcamp helps you to become a 
+                          full stack web developer.
+                        </p>
+                      </div>
+                      <a class="see-cert" href="#!" role="button"></i>See Certificate</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+                <div class="card px-md-3 py-md-3 h-100 w-100 card-hover-effect">
+                  <div class="card-body">
+                    <div class="milestone-list-title">
+                      <i class="fas fa-file-signature fa-6x mb-2"></i>
+                      <h4 class="award-title">7 Documented Repositories</h4>
+                      <p>November 2020</p>
+                      <div class="milestone-list-desc">
+                        <p>Each project has been successfully deployed.
+                        </p>
+                      </div>
+                      <a class="see-cert" href="#!" role="button"></i>See Projects</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card px-md-3 py-md-3 w-100 card-hover-effect">
+                  <div class="card-body">
+                    <div class="milestone-list-title">
+                      <i class="fas fa-award fa-6x mb-2"></i>
+                      <h4 class="award-title">Best in Ecommerce Website</h4>
+                      <p>October 2020</p>
+                      <div class="milestone-list-desc">
+                        <p>ZupClothing is our Creative Web Design training project. 
+                          It is online shopping for fashion and collaboration with professionals 
+                          and product designers.
+                        </p>
+                      </div>
+                      <a class="see-cert" href="#!" role="button"></i>See Projects</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1" d="M0,96L48,90.7C96,85,192,75,288,80C384,85,480,107,576,101.3C672,96,768,64,864,85.3C960,107,1056,181,1152,192C1248,203,1344,149,1392,122.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+  </div>
+
+    
+  <div class="container" id="contact">
+    <section class="contact">
+      <div class="contact-personal-card">
+        <div class="contact-personal-card-title">
+          <div class="row px-md-5 py-5 mb-3">
+            
+            <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
+              <p class="title">Contact</p>
+              <div class="contact-personal-card-info">
+                <p>Metro Manila, Philippines</p>
+                <p>+639760219746</p>
+                <p>businessniks26@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6 mt-3">
+              <div class="contact-personal-form">
+                <div class="contact-personal-form-title">
+                  <h2 class="title contact-title-form">I'd love to hear from you.</h2>
+                </div>
+                <div class="contact-personal-card-info">
+                  <form>
+                    <div class="form-group">
+        
+                      <div class="md-form mt-3">
+                        <label for="fname" data-error="wrong" data-success="right">Full Name</label>
+                        <input type="text" id="fname" class="form-control inputFullName validate">
+                      </div>
+        
+                      <div class="md-form">
+                        <label for="email" data-error="wrong" data-success="right">Email Address*</label>
+                        <input type="email" id="email" class="form-control inputEmail validate" required>
+                      </div>
+
+                      <div class="md-form">
+                        <label for="business-style" data-error="wrong" data-success="right">Business Style</label>
+                        <input type="text" id="business-style" class="form-control inputBusinessStyle validate">
+                      </div>
+
+                      <div class="md-form">
+                        <label for="message" data-error="wrong" data-success="right">Message(optional)</label>
+                        <textarea type="text" id="message" class="md-textarea form-control txtMessage validate" rows="5"></textarea>
+                      </div>
+        
+                      <a class="btn-lg btn-submit text-center" href="#!" role="button">Submit</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="page-footer">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1" d="M0,32L48,42.7C96,53,192,75,288,122.7C384,171,480,245,576,256C672,267,768,213,864,202.7C960,192,1056,224,1152,213.3C1248,203,1344,149,1392,122.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+    </svg>
+    <div class="container py-3 text-center">
+      <div class="row">
+        <div class="col-12 mt-3">
+          <div class="social-icons">
+            <div class="icons"><a href="https://www.facebook.com/iamtherealniks/" target="_blank"><i class="fab fa-facebook"></i></i></a></div>
+            <div class="icons"><a href="https://github.com/niksnilo" target="_blank"><i class="fab fa-github"></i></a></div>
+            <div class="icons"><a href="https://linkedin.com/in/niksnilo" target="_blank"><i class="fab fa-linkedin-in" target="_blank"></i></a></div>
+            <div class="icons"><a href="https://www.youtube.com/niksnilo" target="_blank"><i class="fab fa-youtube"></i></a></div>
+          </div>
+        </div>
+
+        <div class="col-12 text-center">
+          <div class="reserved mt-3">
+            <p>&copy;  2021 Niks Nilo, All Rights Reserved.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+
+  <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+	     		<div class="modal-header text-center">
+              <p class="modal-title w-100 h4">Send a Request</p>
+	        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          		<span aria-hidden="true">&times;</span>
+	        		</button>
+	      		</div>
+	      		<div class="modal-body mx-3">
+              
+              <p class="text-center">Leave a message and I will be back to you soon.</p>
+	      			<div class="md-form">
+		         		<input type="text" id="contact-fullname" class="form-control validate">
+		          		<label data-error="wrong" data-success="right" for="contact-fullname">Full Name</label>
+		       		</div>
+		        	<div class="md-form mb-2">
+		          		<input type="text" id="contact-number" class="form-control validate">
+		          		<label data-error="wrong" data-success="right" for="contact-number">Contact Number</label>
+		        	</div>
+			        <div class="md-form mb-2">
+		         	 	<input type="email" id="contact-email" class="form-control validate" required>
+			         	<label data-error="wrong" data-success="right" for="contact-email">Email Address*</label>
+			        </div>
+			        <div class="md-form mb-2">
+		         	 	<textarea type="text" id="contact-message" class="md-textarea form-control validate"></textarea>
+			         	<label data-error="wrong" data-success="right" for="contact-email">Message</label>
+			        </div>
+			        <div class="d-flex justify-content-center">
+			        	<a class="btn-lg btn-submit text-center" href="#!" role="button">Submit</a>
+			        </div>
+	      		</div>
+	    	</div>
+	  	</div>
+	</div>
+
+  <!--CIRCLES FROM HOME-->
+  <div class="circle1"></div>
+  <div class="circle2"></div>
+  <div class="circle3"></div>
+  <!-- <div class="circle4"></div> -->
+  <div class="circle5"></div>
+  <div class="circle6"></div>
+  <!-- <div class="circle7"></div>
+  <div class="circle8"></div>
+  <div class="circle9"></div>
+  <div class="circle10"></div> -->
+  <!--CIRCLES FROM HOME-->
+  <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
